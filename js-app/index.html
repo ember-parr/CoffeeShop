@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Coffee Shop</title>
 </head>
+
 <body>
-    <button id="run-button">Run It!</button>
+    <button id="run-button">View It In The Console!</button>
     <script src="main.js"></script>
+
+
+    <div class="main-block">
+        <h1>Add A New Coffee Variety</h1>
+        <form action="/">
+            <hr>
+
+            <hr>
+            <label id="icon" for="name"><i class="fas fa-envelope"></i></label>
+            <input type="text" name="name" class="varietyName" id="name" placeholder="Name" required />
+
+            <label id="icon" for="name"><i class="fas fa-user"></i></label>
+            <input type="text" name="Region" class="varietyRegion" id="Region" placeholder="Region" required />
+
+            <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label>
+            <input type="text" name="Notes" class="varietyNotes" id="Notes" placeholder="Notes" required />
+            <hr>
+
+            <hr>
+            <div class="btn-block">
+
+                <button id="add-variety-btn">Add It</button>
+            </div>
+        </form>
+    </div>
+
+
+
 </body>
+
 </html>
