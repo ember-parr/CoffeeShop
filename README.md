@@ -14,3 +14,4 @@ Review and run [this SQL script](./sql/CoffeeShop.sql) to create the CoffeeShop 
 ---
 ---
 ### 👋 Contact Me
+Reach out on [LinkedIn](https://www.linkedin.com/in/emberparr/) 
